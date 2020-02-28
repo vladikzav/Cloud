@@ -29,18 +29,10 @@ public class Controller {
     @FXML
     ListView<String> clientFileList;
 
-    @FXML
-    ListView<HBox> listView;
-
 
     @FXML
     TextField textField;
 
-    @FXML
-    Button btn1;
-
-    @FXML
-    HBox bottomPanel;
 
     @FXML
     HBox upperPanel;
@@ -98,8 +90,6 @@ public class Controller {
             upperPanel2.setManaged(true);
             upperPanel.setVisible(true);
             upperPanel.setManaged(true);
-            bottomPanel.setVisible(false);
-            bottomPanel.setManaged(false);
             serverFileList.setVisible(false);
             serverFileList.setManaged(false);
             clientFileList.setVisible(false);
@@ -110,8 +100,6 @@ public class Controller {
             upperPanel2.setManaged(false);
             upperPanel.setVisible(false);
             upperPanel.setManaged(false);
-            bottomPanel.setVisible(true);
-            bottomPanel.setManaged(true);
             serverFileList.setVisible(true);
             serverFileList.setManaged(true);
             clientFileList.setVisible(true);
@@ -159,13 +147,6 @@ public class Controller {
                                     String[] tokens = str.split(" ");
                                     myNick = tokens[1];
                                     break;
-                                } else {
-                                    String finalStr = str;
-                                    Platform.runLater(
-                                            () -> {
-                                                getMassage(finalStr, "Server: ");
-                                            }
-                                    );
                                 }
                             }
                             break;
@@ -199,15 +180,6 @@ public class Controller {
                                     String value = new String(ptext, UTF_8);
                                     String[] tokens = value.split("FILE_SPLITTER");
                                     serverFileList(tokens);
-                                }
-                                else{
-                                    String finalStr1 = str;
-                                    String finalNick = nick;
-                                    Platform.runLater(
-                                            () -> {
-                                                getMassage(finalStr1, finalNick);
-                                            }
-                                    );
                                 }
                             }
                             break;
@@ -320,24 +292,6 @@ public class Controller {
         }
     }
 
-    public void getMassage(String str, String nick){
-
-            HBox hBox = new HBox();
-            Label label = new Label(str + "\n");
-            hBox.getChildren().add(label);
-
-
-        if(nick.equals(myNick)){
-            hBox.setAlignment(Pos.TOP_RIGHT);
-            label.setAlignment(Pos.TOP_RIGHT);
-        }else {
-            hBox.setAlignment(Pos.TOP_LEFT);
-            label.setAlignment(Pos.TOP_LEFT);
-        }
-
-            listView.getItems().add(hBox);
-
-    }
 
     public void printClientFiles(){
         Platform.runLater(new Runnable() {

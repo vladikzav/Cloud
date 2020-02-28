@@ -19,17 +19,11 @@
     </HBox>
 
     <HBox VBox.vgrow="ALWAYS">
-        <VBox HBox.hgrow="ALWAYS">
             <ListView fx:id="serverFileList" managed="false" onMouseClicked="#selectServerFile" visible="false">
             </ListView>
             <ListView fx:id="clientFileList" managed="false" onMouseClicked="#selectClientFile" visible="false">
             </ListView>
-            <ListView fx:id="listView" editable="false" maxHeight="100" minHeight="50"/>
-            <HBox fx:id="bottomPanel" managed="false" visible="false">
-                <TextField fx:id="textField" onAction="#sendMsg" promptText="Введите текст" HBox.hgrow="ALWAYS" />
-                <Button fx:id="btn1" onAction="#sendMsg" text="Send" />
-            </HBox>
-        </VBox>
+
     </HBox>
 
 

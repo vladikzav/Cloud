@@ -32,9 +32,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-nio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/main/resources" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\All\geek-cloud\client\src\main\resources" />
+      <recent name="D:\All\geek-cloud\server\src\main\resources" />
+      <recent name="D:\All\geek-cloud" />
+      <recent name="D:\All\geek-cloud\client\src\main" />
+      <recent name="D:\All\geek-cloud\client\src\main\java\com\geekbrains\geek\cloud\client" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.geekbrains.geek.cloud.client" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\All\geek-cloud\client_repository" />
       <recent name="D:\All\geek-cloud" />
@@ -42,22 +52,13 @@
       <recent name="D:\All\geek-cloud\client\src\main\java\com\geekbrains\geek\cloud\client" />
       <recent name="D:\All\geek-cloud\server\src\main\java\com\geekbrains\geek\cloud\server" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.geekbrains.geek.cloud.client" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\All\geek-cloud\client\src\main\resources" />
-      <recent name="D:\All\geek-cloud" />
-      <recent name="D:\All\geek-cloud\client\src\main" />
-      <recent name="D:\All\geek-cloud\client\src\main\java\com\geekbrains\geek\cloud\client" />
-      <recent name="D:\All\geek-cloud\client" />
-    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.geek.cloud.client.Main" />
       <module name="client" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/client/src/main/resources" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.geekbrains.geek.cloud.client.*" />
@@ -97,6 +98,7 @@
     <configuration name="StartServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.geek.cloud.server.StartServer" />
       <module name="server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server/src/main/resources" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.geekbrains.geek.cloud.server.*" />
@@ -172,10 +174,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1582728546684" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581963804031">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582906417227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1581963804031" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1582906417227" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1582288821172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -188,26 +190,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1581962155247" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1582022352874">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1582906414763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1582022352874" />
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1582735366888">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1582906414763" />
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1582906528381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1582735366888" />
-    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1582735366888">
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1582906528381" />
+    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1582906528381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1582735366888" />
-    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1582735366888">
+    <state width="1877" height="191" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1582906528381" />
+    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1582906528381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1582735366888" />
-    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1582735366888">
+    <state width="1877" height="191" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1582906528381" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1582906528381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1582735366888" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.54.1280.984@0.0.1920.1040" timestamp="1582906528381" />
     <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1581951511514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
